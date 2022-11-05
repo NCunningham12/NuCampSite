@@ -51,13 +51,13 @@
                                 <label for="numCampers" class="col col-form-label">Number of Campers</label>
                                 <div class="col-sm-6">
                                     <select class="form-control" name="numCampers" id="numCampers">
-                                        <option>Select</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                        <option>6</option>
+                                        <option selected>Select</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
                                     </select>
                                 </div>
                             </div>
@@ -71,10 +71,10 @@
                                 <label class="col-sm-6 col-form-label">Campsite Type</label>
                                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
                                     <label class="btn btn-success active">
-                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked> Tent
+                                        <input type="radio" name="siteType" id="siteTent" value="Tent" autocomplete="off" checked> Tent
                                     </label>
                                     <label class="btn btn-primary">
-                                        <input type="radio" name="siteType" id="siteRV" autocomplete="off"> RV
+                                        <input type="radio" name="siteType" id="siteRV" value="RV" autocomplete="off"> RV
                                     </label>
                                 </div>
                             </div>
